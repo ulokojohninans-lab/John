@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>John Uloko - Portfolio</title>
-  <meta name="description" content="A portfolio website for John Uloko, showcasing his skills, projects, and experience in the field of software development.">
-  <meta name="keywords" content="Software Developer, Portfolio, Projects, Skills, Experience, John Uloko">
+  <title>Starter Page - Kelly Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body class="index-page">
+<body class="starter-page-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
@@ -44,16 +44,33 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">John Uloko</h1>
+        <h1 class="sitename">Kelly</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -71,22 +88,20 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <!-- Starter Section Section -->
+    <section id="starter-section" class="starter-section section">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Starter Section</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
 
-      <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <h2>Kelly Adams</h2>
-            <p>I'm a professional illustrator from San Francisco</p>
-            <a href="about.html" class="btn-get-started">About Me</a>
-          </div>
-        </div>
+      <div class="container" data-aos="fade-up">
+        <p>Use this page as a starter for your own custom pages.</p>
       </div>
 
-    </section><!-- /Hero Section -->
+    </section><!-- /Starter Section Section -->
 
   </main>
 
